@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "express": "^4.16.4",
+    "moment": "^2.22.2",
+    "moment-duration-format": "^2.2.2",
+    "npm": "^6.4.1",
+    "fs": "^0.0.2",
+    "avg-canvas-rgb": "^1.0.0",
+    "canvas": "^2.0.0",
+    "fast-average-color": "^4.2.0",
+    "request": "^2.88.0",
+    "jimp": "^0.5.4",
+    "imagix": "^0.1.7"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "role",
+  "description": "Welcome to Glitch =================",
+  "version": "1.0.0",
+  "main": "server.js",
+  "author": "Azulin 555",
+  "license": "ISC",
+  "devDependencies": {}
+}
