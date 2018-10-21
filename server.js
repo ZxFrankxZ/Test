@@ -124,8 +124,9 @@ Jimp.read(message.author.avatarURL, function (err, top) {
     Jimp.read(image, function(err, images) {
     let img2 = Jimp.read('https://cdn.discordapp.com/attachments/477279692844564500/503228970368499742/welcome.png', function(err, img) {
     images.composite(img, 0, 0)
-    Jimp.loadFont('').then(font => {
+    Jimp.loadFont('./Jack.fnt').then(font => {
       images.print(font, 355, 149, message.author.username)
+      images.print(font, 400, 220, message.author.discriminator)
       
       images.getBuffer(Jimp.AUTO, (err, cb) => {
         if (err) throw err;
